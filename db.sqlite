@@ -1,0 +1,23 @@
+
+root@survun:/var/www/survborn.xyz/public/redeem# cat db*
+FQLite format 3@  .?�
+s�s!
+ ��F��J%%�Wtableredeem_codesredeem_codesCREATE TABLE redeem_codes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    code TEXT UNIQUE NOT NULL,
+    usage_limit INTEGER NOT NULL,
+    balance INTEGER NOT NULL
+)�P�wtableplayersplayersCREATE TABLE players (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT NOT NULL,
+    type TEXT NOT NULL CHECK(type IN ('java', 'bedrock')),
+    coins INTEGER DEFAULT 0
+)�7K%indexsqlite_autoindex_redeem_codes_1redeem_codeP++Ytablesqlite_sequencesqlite_sequenceCREATE TABLE sqlite_sequence(name,seq)�
+�stablecoinscoinsCREATE TABLE coins (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    price INTEGER NOT NULL
+����redeem_codescoins
+        Kontol�#        Erpankontol�
+����
+Kontol#Erpankontolroot@survun:/var/www/survborn.xyz/public/redeem#
